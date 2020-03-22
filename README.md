@@ -1,6 +1,6 @@
 # Fast-Typer
 A bot to play the [Fast-Typer](https://poki.com/en/g/fast-typer-3).
-Can be easily modified to play any typing game by changing the screenshot region
+Can be easily modified to play any typing game by changing the screenshot **region**
 
 ![Demo](https://media.giphy.com/media/JUjQh63Xjz9W8YR0Ve/giphy.gif)
 
