@@ -17,3 +17,5 @@ Can be easily modified to play any typing game by changing the screenshot **regi
 The region can change depending on the resolution of the screen.
 
 Due to the nature of OCR the bot doesn't have 100% accuracy.
+
+**Update: ** Increased the accuracy to about 98%. (works best on large words)
