@@ -14,7 +14,7 @@ while(True):
     img = np.array(img)
     img= cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
     (thresh, im_bw) = cv2.threshold(img, 100, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
-    img=cv2.GaussianBlur(im_bw, (5, 5), 0)
+    img=cv2.resize(img, (0,0), fx=2.5, fy=1.5)
     a = pytesseract.image_to_string(img,config= con)
     print(a)
     if(len(a)<16):
